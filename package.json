@@ -9,6 +9,9 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
+  "dependencies": {
+    "node-forge": "0.10.0"
+  },
   "devDependencies": {
     "apidoc": "^0.19.1",
     "apidoc-swagger": "^0.3.2",
